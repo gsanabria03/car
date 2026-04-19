@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Papey Cars</title>
+</head>
+<body>
+
+<h1>Panel Admin</h1>
+
+<form id="carForm">
+  <input type="text" id="title" placeholder="Título" required>
+  <input type="number" id="price_cr" placeholder="Precio CR" required>
+  <input type="number" id="price_us" placeholder="Precio USA">
+  <input type="text" id="image" placeholder="URL Imagen" required>
+  <textarea id="desc" placeholder="Descripción"></textarea>
+
+  <button type="submit">Agregar carro</button>
+</form>
+
+<hr>
+
+<div id="adminCars"></div>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>
