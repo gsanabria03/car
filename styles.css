@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: black;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.sold {
+  color: red;
+}
